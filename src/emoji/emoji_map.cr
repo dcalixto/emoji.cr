@@ -3,6 +3,8 @@
 # DO NOT EDIT IT MANUALLY.
 #
 module Emoji
+  # Use String.new to properly handle UTF-8 encoded emoji characters
+  extend self
   # Represents an emoji map:
   #
   # ```
